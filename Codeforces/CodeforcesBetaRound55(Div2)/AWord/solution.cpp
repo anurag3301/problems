@@ -23,5 +23,4 @@ int main()
 	cout << word << endl;
 
 	// added a comment
-	// added few more comment
 }
