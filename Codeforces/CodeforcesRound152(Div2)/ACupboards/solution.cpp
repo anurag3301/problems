@@ -12,9 +12,6 @@ int main(){
     cin >> x;
     r += x;
   }
-  int lc = l;
-  int lo = n-l;
-  int rc = r;
-  int ro = n-r;
-  cout <<(min(lc,lo) + min(rc, ro)) << endl;
+  cout <<(min(l, n-l) + min(r, n-r)) << endl;
+
 }
