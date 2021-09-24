@@ -11,6 +11,7 @@ int main(){
   bool skip = false;
   while(t--){
     for(int i=0; i<n; i++){
+
       if (skip){
         skip = false;
         continue;
@@ -21,6 +22,7 @@ int main(){
         skip = true;
       }
     }
+
   }
   cout << queue << endl;
 }
