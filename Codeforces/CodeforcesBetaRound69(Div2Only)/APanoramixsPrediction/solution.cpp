@@ -2,6 +2,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+string isprime(int n){
+    for(int i=2; i<sqrt(n); i++){
+        if(n%i==0)return "Not prime";
+    }
+    return "Prime";
+}
+
 int main(){
     int n, m, nxtpri=0; cin >> n >> m;
     n++;
