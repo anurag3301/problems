@@ -20,16 +20,12 @@ static const char col_cyan[]        = "#282a36";
 static const char col_black[]       = "#000000";
 static const char col_white[]       = "#ffffff";
 static const char col_red[]         = "#ff5370";
+static const char col_darkred[]     = "#db1616";
 static const char col_yellow[]      = "#ffee75";
 static const char col_green[]       = "#c3e88d";
 static const char col_orange[]      = "#f07178";
 static const char col_purple[]      = "#c792ea";
 static const char col_pink[]        = "#FD9CAC";
-static const char col_blue[]        = "#89ddff";
-static const char col_blue[]        = "#89ddff";
-static const char col_blue[]        = "#89ddff";
-static const char col_blue[]        = "#89ddff";
-static const char col_blue[]        = "#89ddff";
 static const char col_blue[]        = "#89ddff";
 
 static const char *colors[][3]      = {
